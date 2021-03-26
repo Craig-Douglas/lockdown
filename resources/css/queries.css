@@ -25,6 +25,8 @@
 
 @media only screen and (max-width: 1023px) {
     
+
+
     body {font-size: 18px;}
     section { padding: 60px o;}
 
@@ -51,6 +53,55 @@
 
 }
 
+h1 {
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-right: 20%;
+}
+
+h2 {font-size: 200%;}
+.logo {
+    text-align: center;
+    padding-bottom: 40px;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.btn-full {
+    margin-left: 140px;
+}
+
+#supnow {   
+    margin-left: 0px;
+}
+
+#buscard {
+    padding-bottom: 39px;
+}
+
+.howith2 {
+    margin-top: 100px;
+}
+
+.app-screen {
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+#howitworks {
+    padding-right: 60px;
+}
+
+.social-links {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
+
+
 /* Small Phones to small tablets: from 481px to 767px */
 
 @media only screen and (max-width: 767px) {
@@ -58,14 +109,87 @@
     body {font-size: 16px;}
     section {padding: 30px 0;}
     .row,
-    hero-text-box { padding: 0 4%;}
+    .hero-text-box { padding: 0 4%;}
     .col {width: 100%;
 	   margin: 0 0 4% 0%;
 }
+
+.section-cities img {
+    padding-right: 24px;
+}
+
+h3 {
+    text-align: center;
+}
+.city-feature { 
+   padding-left: 150px;
+}
+
+#infinite {   margin-left: 200px;
+}
+
+#carrot {   margin-left: 200px;
+}
+
+#stopwatch {   margin-left: 200px;
+}
+
+#trolley {   margin-left: 200px;
+}
+
+
+p.long-copy {
+    text-align: center;
+    justify-content: center;
+    width:100%;
+}
+
+.plan-price,
+.plan-price-meal {
+    text-align: center;
+}
+.meal_plan {
+    margin-left: 100px;
+    padding: 20px;
+}
+
+.social-links {
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+form {
+    padding-left: 90px;
+}
+
+    .main-nav {
+        display: none;
+    }
+    h1 {
+        font-size: 150%;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-top: 100px;
+        margin-right: 20%;
+    }
     
-    .main-nav{display: none;}
-    h1 {font-size: 100%;}
     h2 {font-size: 150%;}
+    .logo {
+        text-align: center;
+        padding-bottom: 20px;
+        align-items: center;
+        margin-left: 0%;
+    }
+
+    #ld_logo {
+        padding-left: 35%;
+        margin-top: 40px;
+        height: 160px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+  
     
     .long-copy {
         width 100%;
@@ -87,6 +211,23 @@
 .works-step:last-of-type {margin-bottom: 20px;}
 }
 
+.hero-text-box {
+ padding-left: 20%;
+}
+
+.section-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.howith2 {
+    padding-top: 300px;
+}
+
+.btn-app img { 
+    margin-left: 50px;
+}
+
 
 
 
@@ -98,5 +239,8 @@
     
     section {padding: 25px 0;}
     .contact-form {width: 100%;}
+
+    
     
 }
+
