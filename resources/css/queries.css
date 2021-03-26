@@ -212,8 +212,12 @@ form {
 }
 
 .hero-text-box {
- padding-left: 20%;
+ padding-left: 16%;
 }
+
+.hero-text-box .btn-full {
+    margin-left: 6%;
+   }
 
 .section-link {
     display: flex;
