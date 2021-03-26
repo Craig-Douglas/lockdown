@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="lockdown coffee" content="coffee delivery">
         <link rel="stylesheet" type="text/css" href="Vendors/css/normalize.css">    
         <link rel="stylesheet" type="text/css" href="Vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
@@ -16,7 +17,7 @@
        <header>
            <nav>
             <div class= "row"> 
-               <img src="Resources/img/lockdownlogo_whiteorange.png" alt="lockdownlogo white" class="logo">
+               <img id="ld_logo" src="Resources/img/lockdownlogo_whiteorange.png" alt="lockdownlogo white" class="logo">
                 <ul class="main-nav">
                     <li><a href="#sectionlink">Coffee Delivery</a></li>
                     <li><a href="#howitworks">How It Works</a></li>
@@ -43,32 +44,33 @@
                 Hello, we’re LockDown Coffee, your new premium Coffee delivery service. We know you’re always busy, we know you are trying to stay safe at home. So let us take care of the travel, all you need to do is order your favourite drinks and snacks
                 </p>
             </div>
-        
+        <div class="container_serv">
             <div class="row">
                 <div class="col span-1-of-4 box">
-                    <i class="ion-ios-infinite-outline icon-big"></i>
+                    <i id="infinite" class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Up to 365 days/year</h3>
                     <p>Never run out of Coffee. We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                     <i class="ion-ios-stopwatch-outline icon-big"></i>
+                     <i id="stopwatch" class="ion-ios-stopwatch-outline icon-big"></i>
                     <h3>Delivery in under 30 minutes</h3>
                     <p>You're only thirty minutes away from your delicious LockDown Coffee and super healthy snacks delivered right to your door. We offer contact free delivery and we offer ready-to-enjoy hot drinks or "brew later" packs to suit everyones schedule
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <i id="carrot" class="ion-ios-nutrition-outline icon-big"></i>
                     <h3>100% Organic</h3>
                     <p>Our blend of LockDown Coffee beans are 100% Natural excluding Chemicals, Preservatives, Gluten & Additives, synthetic products and genetically modified organisms (GMOs).
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
-                     <i class="ion-ios-cart-outline icon-big"></i>
+                     <i id="trolley" class="ion-ios-cart-outline icon-big"></i>
                     <h3>Schedule Delivery</h3>
                     <p>Set up weekly/daily deliveries or order whenever you feel like it. It's up to you!
                     </p>
                 </div>
+            </div>
             </div>
         </section>
          
@@ -123,7 +125,7 @@
     
         <section id="howitworks" class="section-steps">
             <div class="row"> 
-                <h2>How it works &mdash; Simple as 1, 2, 3 </h2>
+                <h2 class="howith2">How it works - Simple as 1, 2, 3 </h2>
             </div>
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
@@ -231,19 +233,19 @@
                 <div class="col span-1-of-3">
                     <blockquote>
                         LockDown Coffee is just awesome! I just launched a startup which leaves me with no time to spare for trips into the city, so LockDown Coffee is a life-saver. Now that I got used to it, I couldn't live without my morning delivery for my staff and I!
-                    <cite><img src="Resources/img/customer-1.jpg">Alberto Duncan</cite>
+                    <cite><img src="Resources/img/customer-1.jpg" alt="customerpic">Alberto Duncan</cite>
                     </blockquote>
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                         Inexpensive, healthy and great-tasting Coffee and snacks, delivered right to my home. We have lots of food and drinks delivery here in Edinburgh, but no one comes even close to LockDown Coffee. Me and my family are so in love!
-                    <cite><img src="Resources/img/customer-2.jpg">Joane Silva</cite>
+                    <cite><img src="Resources/img/customer-2.jpg" alt="customerpic">Joane Silva</cite>
                     </blockquote>    
                 </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                         I was looking for a quick and easy Coffee delivery service in Liverpool as i love my coffee but am staying at home as much as possible right now.  I tried a few of them and ended up with LockDown Coffee. Best delivery service in the city. Keep up the great work!
-                    <cite><img src="Resources/img/customer-3.jpg">Milton Chapman</cite>
+                    <cite><img src="Resources/img/customer-3.jpg" alt="customerpic">Milton Chapman</cite>
                     </blockquote>    
                 </div>
             </div>
@@ -261,8 +263,8 @@
                             <p class="plan-price">£399 <span>/ month</span></p>
                             <p class="plan-price-meal">That's only £13.30 per day</p>
                         </div>
-                        <div>
-                            <ul>
+                        <div id="buscard">
+                            <ul class="meal_plan">
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>1 delivery every day</li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Coffee for 4</li>
@@ -270,7 +272,7 @@
                             </ul>
                         </div>
                         <div>
-                            <a href="#formsignup" class="btn btn-full">Sign up now</a>
+                            <a id="supnow"  href="#formsignup" class="btn btn-full">Sign up now</a>
                         </div>
                     </div>
                 </div>
@@ -282,7 +284,7 @@
                             <p class="plan-price-meal">That's only £5 per day</p>
                         </div>
                         <div>
-                            <ul>
+                            <ul class="meal_plan">
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>1 Coffee & Snack every day</li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Coffee for 2</li>
@@ -302,7 +304,7 @@
                             <p class="plan-price-meal">&nbsp;</p>
                         </div>
                         <div>
-                            <ul>
+                            <ul class="meal_plan">
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>1 Coffee and 1 Snack</li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Order from 8 am to 12 pm</li>
                                 <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
